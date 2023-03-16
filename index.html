@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guanaco: A Multilingual Instruction-Following Language Model</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #5c5c5c;
+            font-size: 42px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #5c5c5c;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            text-align: justify;
+        }
+
+        .credit {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #777;
+            font-style: italic;
+        }
+
+        .highlight {
+            background-color: #ffc04c;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guanaco: A Multilingual Instruction-Following Language Model Based on LLaMA 7B</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lama_guanicoe_9012.jpg/640px-Lama_guanicoe_9012.jpg" alt="Guanaco">
+        <p class="credit">Image by NobbiP (CC BY 3.0)</p>
+        <p>
+            Guanaco is an instruction-following language model trained on Meta's LLaMA 7B model. Building upon the original 52K data from the Alpaca model, we added an additional 49,482 entries, covering <span class="highlight">Simplified Chinese, Traditional Chinese (Taiwan), Traditional Chinese (Hong Kong),</span> and various linguistic and grammatical tasks. By retraining and optimizing the model with this rich data, Guanaco demonstrates excellent performance and potential in a multilingual environment.
+        </p>
+        <p>
+            To promote openness and replicability in research, we have made the Guanaco dataset publicly available and plan to release the model weights in the future. By providing these resources, we hope to encourage more researchers to engage in related research and jointly advance the development of instruction-following language models.
+        </p>
+        <p>
+            When using the Guanaco model, please note the following points:
+            <br>- The Guanaco model has not yet been filtered for harmful, biased, or explicit content. During use, outputs that do not conform to ethical norms may be generated. Please pay special attention to this issue in research or practical applications.
+</p>
+</div>
+
+</body>
+</html>
