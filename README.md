@@ -8,7 +8,7 @@ Guanaco is an instruction-following language model trained on Meta's LLaMA 7B mo
 
 ## Dataset and Model Weights
 
-To promote openness and replicability in research, we have made the Guanaco dataset publicly available and plan to release the model weights in the future. By providing these resources, we hope to encourage more researchers to engage in related research and jointly advance the development of instruction-following language models.
+To promote openness and replicability in research, we have made the [Guanaco Dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) publicly available and plan to release the model weights in the future. By providing these resources, we hope to encourage more researchers to engage in related research and jointly advance the development of instruction-following language models.
 
 ## Precautions
 
