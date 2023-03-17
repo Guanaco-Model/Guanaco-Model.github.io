@@ -4,7 +4,7 @@ As artificial intelligence technology rapidly advances, instruction-following la
 
 ## Model Overview
 
-Guanaco is an instruction-following language model trained on Meta's LLaMA 7B model. Building upon the original 52K data from the Alpaca model, we added an additional 54,574 entries, covering Simplified Chinese, Traditional Chinese (Taiwan), Traditional Chinese (Hong Kong), and various linguistic and grammatical tasks. By retraining and optimizing the model with this rich data, Guanaco demonstrates excellent performance and potential in a multilingual environment.
+Guanaco is an instruction-following language model trained on Meta's LLaMA 7B model. Building upon the original 52K data from the Alpaca model, we added an additional 65,569 entries, covering Simplified Chinese, Traditional Chinese (Taiwan), Traditional Chinese (Hong Kong), and various linguistic and grammatical tasks. By retraining and optimizing the model with this rich data, Guanaco demonstrates excellent performance and potential in a multilingual environment.
 
 ## Dataset and Model Weights
 
