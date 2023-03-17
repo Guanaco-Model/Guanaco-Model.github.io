@@ -10,6 +10,28 @@ Guanaco is an instruction-following language model trained on Meta's LLaMA 7B mo
 
 To promote openness and replicability in research, we have made the [Guanaco Dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) publicly available and plan to release the model weights in the future. By providing these resources, we hope to encourage more researchers to engage in related research and jointly advance the development of instruction-following language models.
 
+The Guanaco model is designed to work well with instruction-following question-answering tasks and continuous conversations. For standard instruction-following QA tasks, use the following template:
+
+```
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+### Instruction:
+{instruction}
+
+### Input:
+{input}
+
+### Response:
+```
+
+For continuous conversations, adopt the following strategy:
+
+1. Maintain a conversation context window of adjustable length within the Instruction, containing past dialogue records. The dialogue roles are User (for the person asking questions) and Assistant (for the one providing answers).
+2. The Input is divided into two parts: a. The System role provides factual information. This information can come from web search data, full-text search or vector search engines, or other knowledge APIs. b. The User role includes the new question in the ongoing conversation.
+3. In the Response, the Assistant role answers the question by: a. Adhering to the context provided in the Instruction. b. Strictly following the guidance of the System role to provide accurate information. c. Responding to the User's new question from the Input.
+
+This approach yields better performance on small models compared to using embedded span toolformer structures.
+
 ## Precautions
 
 When using the Guanaco model, please note the following points:
