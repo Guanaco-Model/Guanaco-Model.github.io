@@ -1,4 +1,5 @@
 # Guanaco - Generative Universal Assistant for Natural-language Adaptive Context-aware Omnilingual outputs
+Our new 🏆SOTA work: [CausalLM](https://causallm.org/) 72B(preview), 14B & 7B, #1 SOTA model of its size, outperforming ALL open models.
 
 **Recent update:** Added support for multimodal VQA.
 
